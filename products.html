@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - E-commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <header class="header">
+        <h1>E-commerce website</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="filters">
+            <h2>Filter By:</h2>
+            <select name="" id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="home">Home & Garden</option>
+            </select>
+        </div>
+
+        <div class="slider">
+            <img class="slider-img" src="images/img1.png" alt="">
+        </div>
+        <div class="products" id="productsList">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 E-commerce Website. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
