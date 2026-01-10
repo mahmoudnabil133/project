@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Success - E-commerce Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <h1>Order Shipped Successfully!</h1>
+        <h1>E-commerce website</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="products.html">Products</a>
             <a href="cart.html">Cart</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
     <main>
-        <p>Thank you for your order. Your products will be shipped to you soon.</p>
+        <div class="success-container">
+            <div class="success-icon">✓</div>
+            <h1>Order Placed Successfully!</h1>
+            <p>Thank you for your purchase!</p>
+            <p>Your order has been confirmed and will be shipped soon.</p>
+            <p>You will receive a confirmation email shortly.</p>
+            <div style="margin-top: 3rem;">
+                <button onclick="window.location.href='products.html'" style="margin: 0.5rem;">Continue Shopping</button>
+                <button onclick="window.location.href='index.html'" style="margin: 0.5rem; background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);">Go to Home</button>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2025 E-commerce Website</p>
+    <footer class="footer">
+        <p>&copy; 2025 E-commerce Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
